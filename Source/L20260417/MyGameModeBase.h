@@ -16,6 +16,7 @@ class L20260417_API AMyGameModeBase : public AGameModeBase
 public:
 	AMyGameModeBase();
 
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
+	float TestValue;
 
 };

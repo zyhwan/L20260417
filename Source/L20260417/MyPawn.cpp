@@ -103,11 +103,16 @@ void AMyPawn::UnBoost(const FInputActionValue& Value)
 	BoostValue = 0.5f;
 }
 
+void AMyPawn::TestFunction()
+{
+}
+
 // Called when the game starts or when spawned
 void AMyPawn::BeginPlay()
 {
 	Super::BeginPlay();
 	
+
 }
 
 // Called every frame

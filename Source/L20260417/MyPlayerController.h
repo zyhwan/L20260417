@@ -22,4 +22,10 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = "Input")
 	TObjectPtr<UInputMappingContext> InputMapping;
+
+
+	TArray<TObjectPtr<UInputMappingContext>> InputMappings;
+
+	TSoftObjectPtr<UInputMappingContext> InputSoftMapping;
+
 };

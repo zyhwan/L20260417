@@ -95,4 +95,7 @@ public:
 	void Fire(const FInputActionValue& Value);
 	void Boost(const FInputActionValue& Value);
 	void UnBoost(const FInputActionValue& Value);
+
+	UFUNCTION()
+	void TestFunction();
 };

@@ -16,6 +16,7 @@ void AMyRocket::BeginPlay()
 {
 	Super::BeginPlay();
 
+	SetLifeSpan(3.f);
 
 }
 
